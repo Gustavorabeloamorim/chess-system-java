@@ -25,7 +25,7 @@ public class ChessMatch {
 	}
 
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
-		board.placePiece(piece,  new ChessPosition(column, row).toP	osition());
+		board.placePiece(piece,  new ChessPosition(column, row).toPosition());
 	}
 	
 	private void initialSetup() {
